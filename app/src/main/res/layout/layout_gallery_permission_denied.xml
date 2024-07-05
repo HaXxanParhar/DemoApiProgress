@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llPermissionDenied"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/permissionImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/no_gallery_permission" />
+
+    <TextView
+        android:id="@+id/text_enable_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_28sdp"
+        android:fontFamily="@font/sf_display_bold"
+        android:text="Enable Permissions"
+        android:textColor="@color/app_color"
+        android:textSize="@dimen/_13ssp" />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_28sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:fontFamily="@font/sf_display_regular"
+        android:text="Please allow us to access your gallery so you can upload photo. Click on the settings button and enable the media access through settings"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_9ssp" />
+
+    <TextView
+        android:id="@+id/btnGoToSetting"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:background="@drawable/bg_white_button"
+        android:fontFamily="@font/sf_display_bold"
+        android:gravity="center"
+        android:text="Go to Settings"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_8ssp" />
+</LinearLayout>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_background">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:background="@color/black"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/sf_display_bold"
+            android:gravity="center"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:text="Add Post"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/grey" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/topBar"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_50sdp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvUploading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:itemCount="2"
+                tools:listitem="@layout/item_post_uploading" />
+
+            <RelativeLayout
+                android:id="@+id/rlAddMedia"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_260sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/bg_upload">
+
+                <LinearLayout
+                    android:id="@+id/btnMedia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_10sdp">
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_24sdp"
+                        android:layout_height="@dimen/_24sdp"
+                        android:src="@drawable/ic_gallery" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:fontFamily="@font/sf_display_medium"
+                        android:gravity="center"
+                        android:text="Select Media"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_9sdp"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_24sdp"
+                        android:fontFamily="@font/sf_display_regular"
+                        android:gravity="center"
+                        android:text="You can upload a images or video in either PNG, JPEG or MP4 format. Be sure it's in a square aspect ratio (1:1)"
+                        android:textColor="@color/grey_lighter"
+                        android:textSize="@dimen/_9sdp"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pagerCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    app:cardCornerRadius="@dimen/_4sdp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/pagerImages"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+
+                        <com.google.android.material.tabs.TabLayout
+                            android:id="@+id/compoundTab"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_3sdp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginVertical="@dimen/_12sdp"
+                            android:background="@null"
+                            android:visibility="visible"
+                            app:tabBackground="@drawable/tab_indicator_posts"
+                            app:tabIndicator="@android:color/transparent"
+                            app:tabMaxWidth="@dimen/_16sdp"
+                            app:tabMinWidth="@dimen/_16sdp"
+                            app:tabPadding="@dimen/_4sdp"
+                            app:tabPaddingEnd="@dimen/_15sdp"
+                            app:tabPaddingStart="@dimen/_15sdp" />
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/ivPostImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone"
+                    app:riv_corner_radius="@dimen/_4sdp" />
+
+
+                <ImageView
+                    android:id="@+id/ivPlay"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/_2sdp"
+                    android:src="@drawable/ic_play_transparent"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ivClose"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_alignParentEnd="true"
+                    android:padding="@dimen/_12sdp"
+                    android:src="@drawable/ic_cross_white"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/llAddMoreImages"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/bg_upload"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:src="@drawable/ic_gallery" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:fontFamily="@font/sf_display_regular"
+                    android:gravity="center"
+                    android:text="Add More Images"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_9sdp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/bg_app_color"
+                android:fontFamily="@font/sf_display_bold"
+                android:gravity="center"
+                android:paddingStart="@dimen/_20sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:text="POST"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <include layout="@layout/loading_main" />
+
+    <include
+        android:id="@+id/layout_permissionDenied"
+        layout="@layout/layout_gallery_permission_denied"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topBar"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

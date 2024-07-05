@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomSheetCourseOptions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/_8sdp"
+    android:paddingBottom="@dimen/_20sdp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBottomSheetButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_popup_grey"
+        tools:itemCount="3"
+        tools:listitem="@layout/item_bottom_sheet_button" />
+
+    <TextView
+        android:id="@+id/tvCancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@drawable/bg_popup_grey"
+        android:fontFamily="@font/sf_display_medium"
+        android:gravity="center"
+        android:text="Cancel"
+        android:textColor="@color/grey_lighter"
+        android:textSize="@dimen/_10sdp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

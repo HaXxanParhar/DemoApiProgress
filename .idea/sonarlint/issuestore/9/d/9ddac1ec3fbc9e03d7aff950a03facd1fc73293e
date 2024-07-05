@@ -1,0 +1,183 @@
+
+“
+java:S1104’"WMake USER_NUMBER a static final constant or non-public and provide accessors if needed.(îÀÆJ$df5e0fa0-02d8-4f44-80a9-178bb53b62fa
+™
+java:S1104“"\Make IS_BUSINESS_DONE a static final constant or non-public and provide accessors if needed.(»Î×üJ$c71004ac-395f-4168-9e7d-ec77539e9379
+¢
+java:S1104”"`Make HAS_SHOWN_HOME_POPUP a static final constant or non-public and provide accessors if needed.(ÿ€ÎúÿÿÿÿJ$bd8dae89-144c-42dc-906a-db6b84c2ee07
+œ
+java:S1104•"_Make HAS_SHOWN_PRO_POPUP a static final constant or non-public and provide accessors if needed.(ßˆ™«J$b0701bb2-f604-4435-a8c5-62879d7651c1
+•
+java:S1104–"XMake IS_USER_DONE a static final constant or non-public and provide accessors if needed.(Û“ÃÏJ$2910ffe2-18cd-4315-8b0a-de22a9d61b08
+¢
+java:S1104—"`Make USER_PROFILE_PICTURE a static final constant or non-public and provide accessors if needed.(šÙ¡ˆÿÿÿÿÿJ$a931de14-d540-4595-a778-1c09b916b97a
+“
+java:S1104˜"VMake USER_COVER a static final constant or non-public and provide accessors if needed.(¤¬à¦J$c6f64a3a-6c44-4da6-b5d4-b151f605eae8
+š
+java:S1104™"XMake USER_ADDRESS a static final constant or non-public and provide accessors if needed.(Â ÂöúÿÿÿÿJ$4c77544a-6225-4713-8546-d77c42814a62
+—
+java:S1104š"ZMake USER_PORTFOLIO a static final constant or non-public and provide accessors if needed.(İ‡…¬J$46005a63-88b0-47a9-a108-8a97d5ec381c
+™
+java:S1104›"WMake USER_RESUME a static final constant or non-public and provide accessors if needed.(î±ÉûÿÿÿÿJ$332273c7-3d67-4412-a3c0-940a00382095
+›
+java:S1104œ"^Make USER_SHORT_ADDRESS a static final constant or non-public and provide accessors if needed.(ú„›ğJ$96444137-28a0-4e68-9dcf-978f3c0345f0
+–
+java:S1104"YMake USER_LATITUDE a static final constant or non-public and provide accessors if needed.(âàóÄJ$bbae4ac8-c26e-4b8a-ba53-4eac4625c8cb
+—
+java:S1104"ZMake USER_LONGITUDE a static final constant or non-public and provide accessors if needed.(¶ÓªJ$f99fa154-bc87-48d2-a783-41f85a8273a9
+›
+java:S1104Ÿ"YMake USER_LOCATION a static final constant or non-public and provide accessors if needed.(ÒŒÏøıÿÿÿÿJ$0a009f60-f853-4197-98dc-1db136ffc2d0
+™
+java:S1104 "WMake USER_RADIUS a static final constant or non-public and provide accessors if needed.(€ÖÃ®ÿÿÿÿÿJ$a83be748-918d-4d8a-a441-43d02dd94173
+œ
+java:S1104¡"_Make USER_VERIFIED_IMAGE a static final constant or non-public and provide accessors if needed.(“†ØĞJ$d04c16f1-f373-46dc-9260-46cd2d5bca03
+›
+java:S1104¢"^Make USER_VERIFY_STATUS a static final constant or non-public and provide accessors if needed.(öÇ™J$e1e6ab1a-038f-413a-9dd6-835297dafd23
+‘
+java:S1104£"TMake USER_DOB a static final constant or non-public and provide accessors if needed.(¼Â¥÷J$89ec76e0-41de-4caa-b75f-34f546e9a098
+™
+java:S1104¤"WMake USER_GENDER a static final constant or non-public and provide accessors if needed.(×ÀşÿÿÿÿJ$c134e7c1-726e-45cb-9a5b-695ca906ea49
+’
+java:S1104¥"VMake USER_ABOUT a static final constant or non-public and provide accessors if needed.(ùáƒJ$5df672d8-eecb-4c5a-9d59-47103b5a47a0
+›
+java:S1104¦"YMake USER_TIMEZONE a static final constant or non-public and provide accessors if needed.(ÀƒÕùÿÿÿÿJ$2a706d2b-394a-4d7e-b545-78dcd30ad111
+™
+java:S1104§"\Make ShowTestingToast a static final constant or non-public and provide accessors if needed.(§ÈÔ“J$d22bea84-9ec6-4158-96b6-35a3c884bd61
+”
+java:S1104¨"RMake JOB_ID a static final constant or non-public and provide accessors if needed.(š¸…úÿÿÿÿJ$1890e9f9-90fc-41c0-8dcf-76047a732243
+“
+java:S1104ª"QMake MODEL a static final constant or non-public and provide accessors if needed.(“à¶ÿÿÿÿÿJ$94c4def0-504c-4fe5-bdc7-cc7b496b4163
+Ÿ
+java:S1104«"]Make WALLET_FIRST_TIME a static final constant or non-public and provide accessors if needed.(ş„›íùÿÿÿÿJ$fd1f9bd8-5fe3-4c7b-9de5-70da266db11f
+—
+java:S1104´"ZMake PRIVACY_POLICY a static final constant or non-public and provide accessors if needed.(·–›‹J$84e5a9a1-e24b-4a6b-8776-2ea610365f35
+“
+java:S1104µ"QMake TERMS a static final constant or non-public and provide accessors if needed.(¥ìù«ıÿÿÿÿJ$934062ef-fcc5-47a9-bba3-2866c03dff51
+’
+java:S1104¶"PMake EULA a static final constant or non-public and provide accessors if needed.(ÔëßÿûÿÿÿÿJ$0f7c2f21-83a3-4ce3-b1c4-04a35e871a1a
+“
+java:S1104·"VMake DISCLAIMER a static final constant or non-public and provide accessors if needed.(ıñÈJ$24eec74e-b9d3-4f08-b4c5-abcd51c9035a
+m
+java:S1444’"1Make this "public static USER_NUMBER" field final(îÀÆJ$d5edd552-6014-4d63-8c2f-518be466e455
+s
+java:S1444“"6Make this "public static IS_BUSINESS_DONE" field final(»Î×üJ$448fbe29-a5bb-414d-a0dd-c5b7916062d1
+|
+java:S1444”":Make this "public static HAS_SHOWN_HOME_POPUP" field final(ÿ€ÎúÿÿÿÿJ$012675c9-28cc-494d-b668-1a424afee0f0
+v
+java:S1444•"9Make this "public static HAS_SHOWN_PRO_POPUP" field final(ßˆ™«J$202bf9e2-0f5e-40b0-8593-89cb86d61162
+o
+java:S1444–"2Make this "public static IS_USER_DONE" field final(Û“ÃÏJ$fe3eb736-3ad2-471c-ae7f-8041cc20c714
+|
+java:S1444—":Make this "public static USER_PROFILE_PICTURE" field final(šÙ¡ˆÿÿÿÿÿJ$7ba41757-60a2-4dbd-9de9-5088292c3c9f
+m
+java:S1444˜"0Make this "public static USER_COVER" field final(¤¬à¦J$cb6acf86-7ba1-4854-a203-dcc729fad88b
+t
+java:S1444™"2Make this "public static USER_ADDRESS" field final(Â ÂöúÿÿÿÿJ$ec591613-31eb-4f41-8072-b621e338b70c
+q
+java:S1444š"4Make this "public static USER_PORTFOLIO" field final(İ‡…¬J$2a9e92a3-b9d3-49fb-a0c7-083361444f65
+s
+java:S1444›"1Make this "public static USER_RESUME" field final(î±ÉûÿÿÿÿJ$1584255c-8bd6-47b6-a424-608fd30ae350
+u
+java:S1444œ"8Make this "public static USER_SHORT_ADDRESS" field final(ú„›ğJ$7335b466-0d32-4104-8f22-7657d32a1967
+p
+java:S1444"3Make this "public static USER_LATITUDE" field final(âàóÄJ$d7544c96-5367-4e3b-b692-f31eb61ba30f
+q
+java:S1444"4Make this "public static USER_LONGITUDE" field final(¶ÓªJ$858cfcb3-a5af-4478-9669-0f3b854282eb
+u
+java:S1444Ÿ"3Make this "public static USER_LOCATION" field final(ÒŒÏøıÿÿÿÿJ$0ab46480-e379-4c12-9989-674e17d8cbc7
+s
+java:S1444 "1Make this "public static USER_RADIUS" field final(€ÖÃ®ÿÿÿÿÿJ$ca419eaa-fd26-4601-b025-8e34db0273ff
+v
+java:S1444¡"9Make this "public static USER_VERIFIED_IMAGE" field final(“†ØĞJ$d4bbfbe5-1aab-434f-86b1-eddec26ad55f
+u
+java:S1444¢"8Make this "public static USER_VERIFY_STATUS" field final(öÇ™J$f6d9f9e2-93f9-4c8d-957a-14c4b712e92a
+k
+java:S1444£".Make this "public static USER_DOB" field final(¼Â¥÷J$20212314-5e24-4de9-b866-6cbb6e17692a
+s
+java:S1444¤"1Make this "public static USER_GENDER" field final(×ÀşÿÿÿÿJ$62006332-44f5-48b9-a6c4-056dc2b57b24
+l
+java:S1444¥"0Make this "public static USER_ABOUT" field final(ùáƒJ$c51023cf-2b25-4672-a74d-79b047c1e48d
+u
+java:S1444¦"3Make this "public static USER_TIMEZONE" field final(ÀƒÕùÿÿÿÿJ$c7c9051d-a0f6-43ed-9967-a6e5a85de076
+s
+java:S1444§"6Make this "public static ShowTestingToast" field final(§ÈÔ“J$87a41c49-4e62-4314-a9d4-ebe1e59ee13a
+n
+java:S1444¨",Make this "public static JOB_ID" field final(š¸…úÿÿÿÿJ$63927cb2-4437-4aa6-a537-af8c3c2f3504
+m
+java:S1444ª"+Make this "public static MODEL" field final(“à¶ÿÿÿÿÿJ$77148d09-1bd7-4300-87ce-af01f8e066ad
+y
+java:S1444«"7Make this "public static WALLET_FIRST_TIME" field final(ş„›íùÿÿÿÿJ$0766e1c8-724c-4c00-9ff9-9215afe9e7ee
+q
+java:S1444´"4Make this "public static PRIVACY_POLICY" field final(·–›‹J$6ef64c85-d8f9-4db7-8bca-9c96df467d8c
+m
+java:S1444µ"+Make this "public static TERMS" field final(¥ìù«ıÿÿÿÿJ$99e579be-d9f0-405c-ba98-af2daf729d85
+l
+java:S1444¶"*Make this "public static EULA" field final(ÔëßÿûÿÿÿÿJ$97d85cd9-1d1c-4a90-be86-3bad7a1bfb84
+m
+java:S1444·"0Make this "public static DISCLAIMER" field final(ıñÈJ$bf915eb2-f209-4c5e-9bbe-bc983f2e7eb7
+’
+java:S3008’"VRename this field "USER_NUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÀÆJ$5fd46287-25f3-40ae-8d01-0ebaf3f9f3b2
+˜
+java:S3008“"[Rename this field "IS_BUSINESS_DONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Î×üJ$6e9cd980-54ba-4eeb-98db-326c4374ece5
+¡
+java:S3008”"_Rename this field "HAS_SHOWN_HOME_POPUP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ€ÎúÿÿÿÿJ$af471a93-d972-42af-afdf-1c91d13b9fc1
+›
+java:S3008•"^Rename this field "HAS_SHOWN_PRO_POPUP" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßˆ™«J$51bec7a6-f382-49c0-aca1-f9ffe2035347
+”
+java:S3008–"WRename this field "IS_USER_DONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û“ÃÏJ$caaaedb5-f60b-4673-aecd-bfeae76977b8
+¡
+java:S3008—"_Rename this field "USER_PROFILE_PICTURE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÙ¡ˆÿÿÿÿÿJ$bb26b0f9-c212-4cf5-9e65-e2c8c11c1b43
+’
+java:S3008˜"URename this field "USER_COVER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¬à¦J$118f41e8-6b8b-4377-9850-d630ed6551ea
+™
+java:S3008™"WRename this field "USER_ADDRESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â ÂöúÿÿÿÿJ$35a30b9f-d552-48a1-a1d6-36eddfa13541
+–
+java:S3008š"YRename this field "USER_PORTFOLIO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ‡…¬J$261e0d89-1636-4d87-b430-522f1d3ebc8d
+˜
+java:S3008›"VRename this field "USER_RESUME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î±ÉûÿÿÿÿJ$ebac4fb9-b663-4c58-ba3e-a0bd0280f856
+š
+java:S3008œ"]Rename this field "USER_SHORT_ADDRESS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú„›ğJ$ef20a9a9-6468-4593-addd-0b18a3bff1c7
+•
+java:S3008"XRename this field "USER_LATITUDE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âàóÄJ$4b4cf4ed-b7c8-4d3a-b2c7-ffa85b4ca0c8
+–
+java:S3008"YRename this field "USER_LONGITUDE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÓªJ$61543667-1717-4550-8a03-6d34d4d0811c
+š
+java:S3008Ÿ"XRename this field "USER_LOCATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒŒÏøıÿÿÿÿJ$46d28c82-62b2-4c13-8bca-f74307713112
+˜
+java:S3008 "VRename this field "USER_RADIUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ÖÃ®ÿÿÿÿÿJ$bcd6312c-0265-4e3e-aa8e-aa5897d4bfd6
+›
+java:S3008¡"^Rename this field "USER_VERIFIED_IMAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“†ØĞJ$52f296c8-3222-4d6e-bfdd-fbe30214a5c4
+š
+java:S3008¢"]Rename this field "USER_VERIFY_STATUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÇ™J$85a8dfcf-8c84-4296-a984-868f94931e0a
+
+java:S3008£"SRename this field "USER_DOB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Â¥÷J$d84f4684-9901-4cfa-b44a-73ab3c4998f4
+˜
+java:S3008¤"VRename this field "USER_GENDER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ÀşÿÿÿÿJ$188edc03-2071-43a2-8f9c-43fc299de1dd
+‘
+java:S3008¥"URename this field "USER_ABOUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùáƒJ$dd3134f5-da48-460e-8f70-743059515700
+š
+java:S3008¦"XRename this field "USER_TIMEZONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀƒÕùÿÿÿÿJ$addc70f6-4f0e-4c35-b6c4-997173843b82
+˜
+java:S3008§"[Rename this field "ShowTestingToast" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ÈÔ“J$bb2ac237-fc3e-4663-b539-c11b1f98dfbd
+“
+java:S3008¨"QRename this field "JOB_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¸…úÿÿÿÿJ$ee4709ba-101e-43a8-9416-829c4e561080
+’
+java:S3008ª"PRename this field "MODEL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“à¶ÿÿÿÿÿJ$2a088ac3-5221-4d06-a1e1-ce353cde89ef
+
+java:S3008«"\Rename this field "WALLET_FIRST_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş„›íùÿÿÿÿJ$2d788aaf-696a-4668-ba86-8eeee994f4ed
+–
+java:S3008´"YRename this field "PRIVACY_POLICY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·–›‹J$b44fe665-713b-44ff-b324-3718799ed965
+’
+java:S3008µ"PRename this field "TERMS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ìù«ıÿÿÿÿJ$2a32b3c5-e14f-4191-9140-6c786da29517
+‘
+java:S3008¶"ORename this field "EULA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔëßÿûÿÿÿÿJ$6b0d4244-02ca-4bc1-98e4-b989c822771d
+’
+java:S3008·"URename this field "DISCLAIMER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıñÈJ$94fce1e0-b99e-4d59-9cdd-b8f382e38b53
+{
+java:S1118":Add a private constructor to hide the implicit public one.(Éæş«ûÿÿÿÿJ$5480a03d-6438-45ab-983c-da537072673c
+‡
+java:S1124¸"EReorder the modifiers to comply with the Java Language Specification.(©üŞ„øÿÿÿÿJ$436d8b93-779d-4c1f-a3b9-909b327b9923
+‚
+java:S1124¹"EReorder the modifiers to comply with the Java Language Specification.(´ÅãÿJ$e15743e4-9119-4e74-95cc-dfb13b67654a
+‡
+java:S1124º"EReorder the modifiers to comply with the Java Language Specification.(—‰ıİûÿÿÿÿJ$8a8c9c3f-f9b5-45ab-897d-13354f0fbbf2

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_upload"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:background="@color/black_off"
+    android:paddingVertical="@dimen/_4sdp"
+    android:visibility="visible"
+    tools:ignore="RtlSymmetry">
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey" />
+
+    <RelativeLayout
+        android:id="@+id/layout_uploadImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_toStartOf="@id/ivMore">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/left_upload_ic"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:scaleType="centerCrop"
+            app:riv_border_color="@color/grey_lightest"
+            app:riv_border_width="@dimen/_1sdp"
+            app:riv_corner_radius="@dimen/_5sdp" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_toEndOf="@id/left_upload_ic"
+            android:fontFamily="@font/sf_display_regular"
+            android:text="Something went wrong!"
+            android:textColor="@color/red_delete"
+            android:textSize="@dimen/_9ssp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/btnRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bg_small_button"
+            android:fontFamily="@font/sf_display_regular"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:paddingTop="@dimen/_3sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:text="Retry"
+            android:textColor="@color/grey_lightest"
+            android:textSize="@dimen/_9ssp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/text_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:fontFamily="@font/sf_display_regular"
+            android:text="50%"
+            android:textColor="@color/grey_lightest"
+            android:textSize="@dimen/_9ssp"
+            android:visibility="visible"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/layout_progressCard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_below="@id/layout_uploadImages"
+        android:layout_marginStart="@dimen/_46sdp"
+        android:layout_marginTop="-2dp"
+        android:layout_toStartOf="@id/ivMore"
+        android:padding="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/_2sdp"
+        app:cardElevation="0dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:progress="50"
+            android:progressTint="@color/app_color"
+            android:scaleY="3" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/ivMore"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_alignParentEnd="true"
+        android:padding="@dimen/_4sdp"
+        android:src="@drawable/ic_more" />
+
+</RelativeLayout>

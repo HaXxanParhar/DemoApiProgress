@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_off">#DADADA</color>
+    <color name="app_color_light">#12D39D</color>
+    <color name="app_color">#0EA47A</color>
+    <color name="app_color_25">#400EA47A</color>
+    <color name="app_color_transparent">#330EA47A</color>
+    <color name="app_color_disabled">#589785</color>
+    <color name="app_color_dark">#0A7557</color>
+    <color name="app_color_darker">#08513D</color>
+    <color name="app_color_darkest">#094736</color>
+    <color name="black_off">#090C0B</color>
+    <color name="grey">#2C2C2C</color>
+    <color name="grey_light">#494949</color>
+    <color name="grey_lighter">#919191</color>
+    <color name="lightish_green">#DEFCF4</color>
+    <color name="grey_lightest">#D3D3D3</color>
+    <color name="grey_dark">#272A29</color>
+    <color name="red_delete">#F04545</color>
+    <color name="red_disabled">#ED6B6B</color>
+    <color name="background_color">#000000</color>
+    <color name="white_accent">#8F8F8F</color>
+    <color name="red">#d32f2f</color>
+    <color name="green">#18D620</color>
+</resources>

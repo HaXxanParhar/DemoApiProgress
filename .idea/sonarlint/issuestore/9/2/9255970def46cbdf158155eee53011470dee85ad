@@ -1,0 +1,64 @@
+
+f
+java:S1192ı"JDefine a constant instead of duplicating this literal "File Size" 4 times.(¤şÅ£üÿÿÿÿ
+b
+java:S1192ı"FDefine a constant instead of duplicating this literal "Size " 4 times.(¤şÅ£üÿÿÿÿ
+F
+java:S1066…"/Merge this if statement with the enclosing one.(Ş¸³ã
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÈ­³ûÿÿÿÿ
+
+java:S1488—"eImmediately return this expression instead of assigning it to the temporary variable "base64Encoded".(ÊËšşÿÿÿÿ
+i
+java:S2095‘"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(šÛÒßüÿÿÿÿ
+e
+java:S2095¨"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(çœ¬å
+`
+java:S2095–"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ª¦Ò
+`
+java:S2095ğ"IUse try-with-resources or close this "InputStream" in a "finally" clause.(ª¦Ò
+j
+java:S2095ñ"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(°§¿ƒøÿÿÿÿ
+j
+java:S2095—"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(°§¿ƒøÿÿÿÿ
+j
+java:S2095Ø"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(œÍåıÿÿÿÿ
+U
+java:S1118&":Add a private constructor to hide the implicit public one.(Ó™€¸ÿÿÿÿÿ
+g
+java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 75 to the 15 allowed.(¢‰é[
+?
+java:S14814")Remove this unused "type" local variable.(ÍİÔ¼
+A
+java:S1481d"+Remove this unused "isOreo" local variable.(ÁëÜ†
+R	java:S125Ÿ"<This block of commented-out lines of code should be removed.(Æš„
+W	java:S125¡"<This block of commented-out lines of code should be removed.(˜¢½Ãùÿÿÿÿ
+=
+java:S1075Ã"&Remove this hard-coded path-delimiter.(ü¾ù¼
+O
+java:S1854í"8Remove this useless assignment to local variable "size".(è•Âä
+@
+java:S1481í")Remove this unused "size" local variable.(è•Âä
+W	java:S125ö"<This block of commented-out lines of code should be removed.(íïğÔşÿÿÿÿ
+O
+java:S1854“"8Remove this useless assignment to local variable "size".(è•Âä
+@
+java:S1481“")Remove this unused "size" local variable.(è•Âä
+W	java:S125œ"<This block of commented-out lines of code should be removed.(íïğÔşÿÿÿÿ
+j
+java:S3252ğ"NUse static access with "android.provider.MediaStore$MediaColumns" for "TITLE".(ÄËêúûÿÿÿÿ
+q
+java:S3252ñ"UUse static access with "android.provider.MediaStore$MediaColumns" for "DISPLAY_NAME".(¯Øü›üÿÿÿÿ
+q
+java:S3252ò"[Use static access with "android.provider.MediaStore$Images$ImageColumns" for "DESCRIPTION".(ªê¡
+n
+java:S3252ó"RUse static access with "android.provider.MediaStore$MediaColumns" for "MIME_TYPE".(Úé­£şÿÿÿÿ
+j
+java:S3252ô"SUse static access with "android.provider.MediaStore$MediaColumns" for "DATE_ADDED".(Íµ´Ÿ
+o
+java:S3252õ"SUse static access with "android.provider.MediaStore$MediaColumns" for "DATE_TAKEN".(ïìÜ‘şÿÿÿÿ
+D	java:S108“")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ
+]	java:S899 "BDo something with the "boolean" value returned by "createNewFile".(ôü¿Ÿÿÿÿÿÿ
+a
+java:S2674“"JCheck the return value of the "read" call to see how many bytes were read.(®Ê¦š
+Ü
+java:S6541*"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 103 to 64, Complexity from 26 to 14, Nesting Level from 6 to 2, Number of Variables from 23 to 6.(¢‰é[

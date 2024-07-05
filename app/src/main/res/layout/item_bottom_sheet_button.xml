@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvOption"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44sdp"
+        android:fontFamily="@font/sf_display_medium"
+        android:gravity="center"
+        android:text="Option"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10sdp"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey_light" />
+
+
+</RelativeLayout>
